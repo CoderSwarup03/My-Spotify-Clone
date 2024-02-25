@@ -1,0 +1,66 @@
+.border{
+    border: 1px solid rgb(215, 29, 29);
+    margin: 2px;
+}
+.flex{
+    display: flex;
+}
+.justify-content{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter:invert(1);
+}
+.bg-grey{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 3px;
+}
+.p-1{
+    padding: 8px;
+}
+.cardFontSize{
+    font-size: 15px;
+    font-weight: 450;
+}
+.cardPSize{
+    font-size: 12px;
+    font-weight: 220;
+}
+/* For WebKit browsers (Chrome, Safari) */
+/* Apply the styles to the entire webpage */
+body {
+    scrollbar-color: #333333 #121212; /* thumb and track color */
+    scrollbar-width: thin; /* width of the scrollbar */
+  }
+  
+  /* For Firefox */
+  body {
+    scrollbar-color: #333333 #121212;
+  }
+  
+  /* For Webkit browsers (Chrome, Safari) */
+  body::-webkit-scrollbar {
+    width: 8px; /* width of the scrollbar */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #333333; /* thumb color */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-color: #121212; /* track color */
+  }
+  
+  
